@@ -24,33 +24,24 @@
 {
     [super viewDidLoad];
     
-    _gaugeView.style = [WMGaugeViewStyle3D new];
-    _gaugeView.maxValue = 240.0;
+    _gaugeView.style = [WMGaugeViewStyle3D2 new];
+    _gaugeView.maxValue = 100;
     _gaugeView.showRangeLabels = YES;
-    _gaugeView.rangeValues = @[ @50,                  @90,                @130,               @240.0              ];
-    _gaugeView.rangeColors = @[ RGB(232, 111, 33),    RGB(232, 231, 33),  RGB(27, 202, 33),   RGB(231, 32, 43)    ];
-    _gaugeView.rangeLabels = @[ @"VERY LOW",          @"LOW",             @"OK",              @"OVER FILL"        ];
+    _gaugeView.rangeValues = @[ @5,                            @95,               @100              ];
+    _gaugeView.rangeColors = @[ RGB(232, 111, 33),     RGB(27, 202, 33),   RGB(231, 32, 43)    ];
+    _gaugeView.rangeLabels = @[ @"",                      @"",              @""        ];
+    _gaugeView.rangeLabelsWidth = 50;
     _gaugeView.unitOfMeasurement = @"psi";
     _gaugeView.showUnitOfMeasurement = YES;
-    _gaugeView.scaleDivisionsWidth = 0.008;
-    _gaugeView.scaleSubdivisionsWidth = 0.006;
+    _gaugeView.scaleDivisionsWidth = 0.000;
+    _gaugeView.scaleSubdivisionsWidth = 0.000;
+    _gaugeView.showScale = NO;
     _gaugeView.rangeLabelsFontColor = [UIColor blackColor];
     _gaugeView.rangeLabelsWidth = 0.04;
     _gaugeView.rangeLabelsFont = [UIFont fontWithName:@"Helvetica" size:0.04];
-    
-    _gaugeView2.style = [WMGaugeViewStyleFlatThin new];
-    _gaugeView2.maxValue = 100.0;
-    _gaugeView2.scaleDivisions = 10;
-    _gaugeView2.scaleSubdivisions = 5;
-    _gaugeView2.scaleStartAngle = 30;
-    _gaugeView2.scaleEndAngle = 280;
-    _gaugeView2.showScaleShadow = NO;
-    _gaugeView2.scaleFont = [UIFont fontWithName:@"AvenirNext-UltraLight" size:0.065];
-    _gaugeView2.scalesubdivisionsAligment = WMGaugeViewSubdivisionsAlignmentCenter;
-    _gaugeView2.scaleSubdivisionsWidth = 0.002;
-    _gaugeView2.scaleSubdivisionsLength = 0.04;
-    _gaugeView2.scaleDivisionsWidth = 0.007;
-    _gaugeView2.scaleDivisionsLength = 0.07;
+    _gaugeView.scaleStartAngle = 90;
+    _gaugeView.scaleEndAngle = 270;
+    _gaugeView.showInnerBackground = NO;
     
     [NSTimer scheduledTimerWithTimeInterval:2.0
                                      target:self

@@ -9,6 +9,7 @@
 #import "WMGaugeViewStyle.h"
 #import "WMGaugeViewStyleFlatThin.h"
 #import "WMGaugeViewStyle3D.h"
+#import "WMGaugeViewStyle3D2.h"
 
 /**
  * Styling enumerations

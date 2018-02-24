@@ -10,6 +10,7 @@
 		3E788DD61BDCEAC500F78D6A /* WMGaugeViewStyleFlatThin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E788DD51BDCEAC500F78D6A /* WMGaugeViewStyleFlatThin.m */; };
 		3E788DDF1BDCF58300F78D6A /* WMGaugeViewStyle3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E788DDE1BDCF58300F78D6A /* WMGaugeViewStyle3D.m */; };
 		3E788DE21BDCFE7F00F78D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E788DE01BDCFE7F00F78D6A /* LaunchScreen.storyboard */; };
+		BC7D7FDC2041F3D5009A1FD2 /* WMGaugeViewStyle3D2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D7FDA2041F3D5009A1FD2 /* WMGaugeViewStyle3D2.m */; };
 		BE18403519197AE8002ACE81 /* WMGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE18403419197AE8002ACE81 /* WMGaugeView.m */; };
 		BEE4441D189846A9002B489A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4441C189846A9002B489A /* Foundation.framework */; };
 		BEE4441F189846A9002B489A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4441E189846A9002B489A /* CoreGraphics.framework */; };
@@ -44,6 +45,8 @@
 		3E788DDD1BDCF58300F78D6A /* WMGaugeViewStyle3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGaugeViewStyle3D.h; sourceTree = "<group>"; };
 		3E788DDE1BDCF58300F78D6A /* WMGaugeViewStyle3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGaugeViewStyle3D.m; sourceTree = "<group>"; };
 		3E788DE11BDCFE7F00F78D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC7D7FDA2041F3D5009A1FD2 /* WMGaugeViewStyle3D2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGaugeViewStyle3D2.m; sourceTree = "<group>"; };
+		BC7D7FDB2041F3D5009A1FD2 /* WMGaugeViewStyle3D2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGaugeViewStyle3D2.h; sourceTree = "<group>"; };
 		BE18403319197AE8002ACE81 /* WMGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGaugeView.h; sourceTree = "<group>"; };
 		BE18403419197AE8002ACE81 /* WMGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGaugeView.m; sourceTree = "<group>"; };
 		BEE44419189846A9002B489A /* WMGaugeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMGaugeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +97,8 @@
 		BE18403219197AE8002ACE81 /* WMGaugeView */ = {
 			isa = PBXGroup;
 			children = (
+				BC7D7FDB2041F3D5009A1FD2 /* WMGaugeViewStyle3D2.h */,
+				BC7D7FDA2041F3D5009A1FD2 /* WMGaugeViewStyle3D2.m */,
 				BE18403319197AE8002ACE81 /* WMGaugeView.h */,
 				BE18403419197AE8002ACE81 /* WMGaugeView.m */,
 				3E788DD71BDCEB0200F78D6A /* WMGaugeViewStyle.h */,
@@ -280,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE18403519197AE8002ACE81 /* WMGaugeView.m in Sources */,
+				BC7D7FDC2041F3D5009A1FD2 /* WMGaugeViewStyle3D2.m in Sources */,
 				BEE44433189846A9002B489A /* ViewController.m in Sources */,
 				BEE4442D189846A9002B489A /* AppDelegate.m in Sources */,
 				3E788DDF1BDCF58300F78D6A /* WMGaugeViewStyle3D.m in Sources */,
