@@ -25,9 +25,10 @@
     [super viewDidLoad];
     
     _gaugeView.style = [WMGaugeViewStyle3D2 new];
-    _gaugeView.maxValue = 100;
+    _gaugeView.minValue = 0;
+    _gaugeView.maxValue = 25;
     _gaugeView.showRangeLabels = YES;
-    _gaugeView.rangeValues = @[ @5,                            @95,               @100              ];
+    _gaugeView.rangeValues = @[ @1,                            @24,               @25              ];
     _gaugeView.rangeColors = @[ RGB(232, 111, 33),     RGB(27, 202, 33),   RGB(231, 32, 43)    ];
     _gaugeView.rangeLabels = @[ @"",                      @"",              @""        ];
     _gaugeView.rangeLabelsWidth = 50;
