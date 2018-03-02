@@ -547,8 +547,6 @@
     // Needle animation to target value
     // An intermediate "middle" value is used to make sure the needle will follow the right rotation direction
     
-    if (animated == YES) {
-    
     CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     animation.removedOnCompletion = YES;
@@ -562,9 +560,6 @@
     {
         rootNeedleLayer.transform = [[animation.values lastObject] CATransform3DValue];
         [rootNeedleLayer addAnimation:animation forKey:kCATransition];
-    }
-        
-        
     }
 }
 
